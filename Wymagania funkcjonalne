@@ -1,0 +1,35 @@
+INŻYNIERIA OPROGRAMOWANIA 	
+SYSTEM BIBLIOTECZNY (WYPOŻYCZALNIA)
+
+1. Wymagania funkcjonalne
+
+Klient:
+ - logowanie się do systemu poprzez login i hasło (zerowy poziom uprawnień),
+ - wyszukiwanie odpowiednich pozycji w bazie danych (książek),
+ - składanie zamówienia na istniejącą pozycję w bazie danych (rewers)
+ - rezerwacja wybranej pozycji,
+ - wypełnianie formularza dotyczącego sprowadzenia pozycji, której nie ma aktualnie w systemie,
+ - przedłużenie wypożyczenia,
+ - przegląd informacji o swoich zamówieniach,
+ - wykonywanie transakcji finansowych (kary za nieterminowe zwroty książek, zniszczenie lub zagubienie etc.)
+ 
+Pracownik:
+ - logowanie się do systemu poprzez login i hasło (pierwszy poziom uprawnień),
+ - dodawanie nowych pozycji (książek) do bazy danych,
+ - edycja istniejących pozycji (książek),
+ - usuwanie pozycji (książek) z bazy danych,
+ - realizacja zamówień klienta,
+ - monitorowanie i modyfikowanie terminów zwrotu pozycji książkowych,
+ - ustalanie indywidualnego limitu wypożyczanych książek dla czytelników
+
+Administrator
+ - logowanie się do systemu poprzez login i hasło (najwyższy poziom uprawnień),
+ - możliwość modyfikowania, blokowania lub usuwania konta czytelnika,
+ - dodawanie kont pracowników (z pierwszym poziomem uprawnień),
+ - dodawanie nowych pozycji (książek) do bazy danych,
+ - edycja istniejących pozycji (książek),
+ - usuwanie pozycji (książek) z bazy danych,
+ - realizacja zamówień klienta,
+ - monitorowanie i modyfikowanie terminów zwrotu pozycji książkowych,
+ - ustalanie indywidualnego limitu wypożyczanych książek dla czytelników,
+ - sprowadzanie nowych pozycji książkowych, 
